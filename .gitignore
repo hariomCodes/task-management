@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+*.env
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React
+build/
+dist/
+
+# Parcel
+.cache/
+dist/
+*.parcel*
+
+# IDE
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
+*.swp
+.DS_Store
