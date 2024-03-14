@@ -14,6 +14,13 @@ Clone this repo and open the root directory in terminal.
 5. Run the dev server
     `uvicorn backend.main:app --reload`
     The backend should be running now.
+#### Additional libraries
+"uvicorn[standard]"
+sqlalchemy
+python-multipart
+"python-jose[cryptography]"
+"passlib[bcrypt]"
+httpx
 
 ### Frontend
 Do not exit the backend terminal. Create a new terminal and do the following
@@ -23,3 +30,7 @@ Do not exit the backend terminal. Create a new terminal and do the following
 3. Run the dev server
     `npm run dev`
 The url should be available on the terminal. Paste it on a browser and you can access the frontend.
+#### Additional libraries
+parcel
+react-router
+tailwindcss
