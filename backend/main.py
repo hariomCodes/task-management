@@ -103,6 +103,3 @@ def demo_get():
 @app.post("/demo")
 def demo_post(user: schemas.UserCreate):
     return user
-    # return {"message": "Hello World"}
-# Testing with Pytest
-# Add your unit tests here
